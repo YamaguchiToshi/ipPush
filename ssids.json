@@ -1,0 +1,7 @@
+{
+    "ssids": {
+        "SSID01": "key",
+        "SSID02": "key"
+    },
+    "establish": {"mySSID": "key"}
+}
