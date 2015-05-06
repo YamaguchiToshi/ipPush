@@ -15,12 +15,13 @@ PushOverから通知が来るの待つ．
 接続できなかったときは自らがホストになるので，
 PCやスマホでFlashAirのSSIDに直接つないで使いましょう．
 
+SSIDとkeyの組み合わせが平文なので，FlashAir自体の取り扱いに注意しましょう．
+
 ## Install
 
 1. `/SD_WLAN/CONFIG`の変更
 
     -APPMODE=4
-    
     +LUA_RUN_SCRIPT=/SD_WLAN/ipPush.lua
 
 2. `ipPush.lua`にPushOverの`API_KEY`と`USER_KEY`を追加
